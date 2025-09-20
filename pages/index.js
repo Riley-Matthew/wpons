@@ -1,11 +1,15 @@
 import Image from "next/image";
-import Layout from "./layout";
+import { Geist, Geist_Mono } from "next/font/google";
+import Hero from "./hero"
+import Content from "./Content"
+
+
+
 export default function Home() {
   return (
     <div>
-      <h1 className="text-red-800 text-3xl font-bold">Pons</h1>
+      <Hero />
+      
     </div>
   );
-
 }
-
